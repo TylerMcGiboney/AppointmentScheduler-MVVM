@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace Appointment_Scheduler.Models
 {
-    public class User
+    public class Customer
     {
-        public int UserId { get; set; }
-        public string UserName { get; set; }
-        public string Password { get; set; }
+        public int CustomerId { get; set;   }
+        public string CustomerName { get; set; }
+        public int AddressId { get;set; }
         public bool Active { get; set; }
         public DateTime CreateDate { get; set; }
         public string CreatedBy { get; set; }
         public DateTime LastUpdate { get; set; }
-        public string LastUpdateBy { get; set; }
-
+        public string LastUpdateBy { get;set; }
 
     }
 }
