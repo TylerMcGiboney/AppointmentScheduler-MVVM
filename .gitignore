@@ -1,0 +1,17 @@
+# VS / .NET build junk
+.vs/
+bin/
+obj/
+
+# User-specific VS files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code (if you use them)
+.idea/
+.vscode/
+
+# NuGet packages (if you have a packages folder)
+packages/
